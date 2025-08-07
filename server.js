@@ -8,7 +8,7 @@ const multer = require('multer');
 
 const app = express();
 app.use(cors({
-    origin: ['https://your-app.vercel.app', 'https://your-site.netlify.app', 'http://localhost:3000'],
+    origin: ['https://event-app-two-ecru.vercel.app/', 'https://event-server-hkf7.onrender.com'],
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
 }));
